@@ -1,0 +1,300 @@
+Which if the following is/are the levels of implementation of data structure,Abstract level,Application level,Implementation level,All of the above,D,6
+A binary search tree whose left subtree and right subtree differ in hight by at most 1 unit is called ……,AVL tree,Red-black tree,Lemma tree,None of the above,A,7
+_______ level is where the model becomes compatible executable code,Abstract level,Application level,Implementation level,All of the above,C,7
+Stack is also called as,Last in first out,First in last out,Last in last out,First in first out,A,10
+Which of the following is true about the characteristics of abstract data types? i) It exports a type. ii) It exports a set of operations,True  False,False  True,True  True,False  False,C,8
+________is not the component of data structure.,Operations,Storage Structures,Algorithms,None of above,D,7
+Which of the following is not the part of ADT description?,Data,Operations,Both of the above,None of the above,D,9
+Inserting an item into the stack when stack is not full is called ___a___ Operation and deletion of item form the stack when stack is not empty is called __b__operation.,a.push b.pop,a.pop b.push,a.insert b.delete,a.delete b.insert,A,10
+_______ Is a pile in which items are added at one end and removed from the other.,Stack,Queue,List,None of the above,B,6
+ ________is very useful in situation when data have to stored and then retrieved in reverse order.,Stack,Queue,List,Link list,A,7
+Which data structure allows deleting data elements from and inserting at rear?,Stack,Queue,Dequeue,Binary search tree,B,9
+Which of the following data structure can't store the non-homogenous data elements,Arrays,Records,Pointers,Stacks,A,8
+A_______ is a data structure that organizes data similar to a line in the supermarket where the first one in line is the first one out.,Queue linked list,Stacks linked list,Both of them,Neither of them,A,7
+Which of the following is non-liner data structure?,Stacks,List,Strings,Trees,D,6
+Herder node is used as sentinel in ___,Graphs,Stacks,Binary tree,Queues,C,9
+Which data structure is used in breadth first search of a graph to hold nodes?,Stack,Queue,Tree,Array,B,10
+Identify the data structure which allows deletions at both ends of the list but insertion at only one end.,Input restricted dequeue,Output restricted dequeue,Priority queues,Stack,A,8
+Which of the following data structure is non linear type?,Strings,Lists,Stacks,Graph,D,6
+Which of the following data structure is linear type?,Graph,Trees,Binary tree,Stack,D,6
+To represent hierarchical relationship between elements. Which data structure is suitable?,Deque,Priority,Tree,Graph,C,7
+A directed graph is  _______if there is a path from each vertex to every other vertex in the digraph.,Weakly connected,Strongly Connected,Tightly Connected,Linearly Connected,B,9
+In the _______traversal we process all of a vertex’s descendants before we move to an adjacent vertex.,Depth First,Breadth First,With First,Depth Limited,A,10
+State True of False: i) Network is a graph that has weights or costs associated with it. ii) An undirected graph which contains no cycles is called a forest. iii) A graph is said to be complete if there is no edge between every pair of vertices.,i)True ii)False iii)True,i)True ii)True iii)False,i)True ii)True iii)True,i)False ii)True iii)True,B,10
+What is a pointer?,A variable that stores an address of another variable, A variable that stores a value,A constant,A data type,A,8
+Which operator is used to get the value at the address stored in a pointer variable?,&,*,%,@,B,7
+Which operator is used to get the address of a variable?,&,*,%,@,A,6
+What does the following code do? `int *p;`,Declares a pointer to an integer,Declares an integer,Declares a pointer to a float,Declares a pointer to a pointer,A,9
+If `p `is a pointer to an integer then what does `p++` do?,Moves the pointer to the next integer,Increments the value pointed to by p,Decrements the pointer,Multiplies the pointer by 2,A,10
+What is a linked list?,A collection of variables,A sequence of nodes where each node points to the next node,A special array,A type of pointer,B,8
+Which of the following is not a type of linked list?,Singly linked list,Doubly linked list,Circular linked list,Parallel linked list,D,6
+What does the head of a linked list contain?,The first node,The last node,A null value,An integer,A,6
+In a singly linked list each node contains:,Only data,Only a pointer,Data and a pointer to the next node,Data and a pointer to the previous node,C,7
+To insert a new node at the beginning of a linked list we need to:,Change the next pointer of the new node to the current head,Change the head to the new node,Both A and B,Neither A nor B,C,9
+A stack is based on which principle?,FIFO (First In First Out), LIFO (Last In First Out),FILO (First In Last Out),None of the above,B,10
+Which operation is used to add an element to a stack?,Insert,Append,Push,Add,C,6
+Which operation is used to remove the top element from a stack?,Pop,Delete,Remove,Extract,A,8
+Which operation returns the top element without removing it from the stack?,Peek,View,Top,Retrieve,A,7
+In a stack if the initial state of the stack is empty what is the state after the following operations? push(1) -> push(2) -> pop() -> push(3),1,2 3,1 3,3 2,C,6
+What is a binary tree?,A tree in which every node has at most two children,A tree in which every node has exactly two children,A tree with only one child,None of the above,A,9
+What is a full binary tree?,A binary tree in which all leaves are at the same level,A binary tree in which every node has 0 or 2 children, A binary tree with only one child per node,None of the above,B,10
+In a binary tree the number of leaf nodes is always:,One less than the number of internal nodes,Equal to the number of internal nodes,One more than the number of internal nodes,Independent of the number of internal nodes,C,8
+What is the inorder traversal of a binary tree?,Visiting the left subtree then the root and then the right subtree,Visiting the root then the left subtree and then the right subtree,Visiting the root the right subtree and then the left subtree,None of the above,A,6
+In a binary search tree the left child of a node contains a value that is:,Greater than the node’s value,Less than the node’s value,Equal to the node’s value,Unrelated to the node’s value,B,6
+What is a graph?,A collection of nodes connected by edges,A type of linked list,A tree with only one child,A data structure with no nodes,A,7
+Which of the following is not a type of graph?,Directed graph,Undirected graph,Spanning graph,Weighted graph,C,9
+In an undirected graph the degree of a node is:,The number of edges connected to it,The number of nodes connected to it,The number of edges plus one,The number of nodes minus one,A,10
+A path in a graph is:,A sequence of edges connecting two nodes,A sequence of nodes with no edges,A single node,A graph with no nodes,A,6
+What is a cycle in a graph?,A path that starts and ends at the same node,A path that starts and ends at different nodes,A sequence of edges,A graph with only one node,A,8
+What is the purpose of Dijkstra's algorithm?,To sort the nodes of a graph,To traverse all nodes of a graph,To find the shortest path between two nodes,To find the longest path between two nodes,C,10
+The number of comparisons done by sequential search is  _______,(N/2)+1,(N+1)/2,(N-1)/2,(N+2)/2,B,9
+In ________search start at the beginning of the list and check every element in the list.,Linear search,Binary search,Hash Search,Binary Tree search,A,6
+State True or False. i) Binary search is used for searching in a sorted array. ii) The time complexity of binary search is O(logn).,i)True ii)False,i)False ii)True,i)False ii)False,i)True ii)True,D,8
+Which of the following is not the internal sort?,Insertion Sort,Bubble Sort,Merge Sort,Heap Sort,C,7
+State True or False. i) An undirected graph which contains no cycles is called forest. ii) A graph is said to be complete if there is an edge between every pair of vertices.,i)True ii)True,i)False ii)True,i)False ii)False,i)True ii)False,A,10
+A graph is said to be ________if the vertices can be split into two sets V1 and V2 such there are no edges between two vertices of V1 or two vertices of V2.,Partite,Bipartite,Rooted,Bisects,B,8
+In a queue the initial values of front pointer f rare pointer r should be_____ and______respectively.,0 and 1,0 and -1,-1 and 0,1 and 0,B,10
+In a circular queue the value of r will be?,r=r+1,r=(r+1)% [QUEUE_SIZE – 1],r=(r+1)% QUEUE_SIZE,r=(r-1)% QUEUE_SIZE,C,9
+Which of the following statement is true? i) Using singly linked lists and circular list it is not possible to traverse the list backwards. ii) To find the predecessor it is required to traverse the list from the first node in case of singly linked list.,i-only,ii-only,Both i and ii,None of both,C,8
+The advantage of_______is that they solve the problem if sequential storage representation. But disadvantage in that is they are sequential lists.,Lists,Linked Lists,Trees,Queues,B,10
+What will be the value of top if there is a size of stack STACK_SIZE is 5,5,6,4,None,C,6
+ ________is not the operation that can be performed on queue.,Insertion,Deletion,Retrieval,Traversal,D,7
+There is an extra element at the head of the list called a _______,Antinel,Sentinel,List header,List head,B,10
+A graph is a collection of nodes called ______ And line segments called arcs or ______that connect pair of nodes.,vertices  edges,edges-vertices,vertices- paths,graph node- edges,A,6
+A ______ is a graph that has weights of costs associated with its edges.,Network,Weighted graph,Both A and B,None A and B,C,10
+In general the binary search method needs no more than  ________comparisons.,[log2n]-1,[logn]+1,[log2n],[log2n]+1,D,7
+Which of the following is not the type of queue?,Ordinary queue,Single ended queue,Circular queue,Priority queue,B,9
+The property of binary tree is,The first subset is called left subtree,The second subtree is called right subtree,The root cannot contain NULL,The right subtree can be empty,D,7
+State true or false.i) The degree of root node is always zero. ii) Nodes that are not root and not leaf are called as internal nodes.,True  True,True- False,False- True,False- False,C,8
+Any node is the path from the root to the node is called,Successor node,Ancestor node,Internal node,None of the above,B,10
+State true of false. i) A node is a parent if it has successor nodes. ii) A node is child node if out degree is one.,True  True,True- False,False- True,False- False,B,8
+______ is not an operation performed on linear list a) Insertion b) Deletion c) Retrieval d) Traversal,only a- b and c,only a and b,All of the above,None of the above,D,9
+Which is/are the application(s) of stack,Function calls,Large number Arithmetic,Evaluation of arithmetic expressions,All of the above,D,7
+A ________is an acyclic digraph which has only one node with indegree 0 and other nodes have indegree 1.,Directed Tree,Undirected Tree,Dis-joint Tree,Direction Oriented Tree,A,8
+__________ Is a directed tree in which outdegree of each node is less than or equal to two.,Unary Tree,Binary Tree,Trinary Tree,Both B and C,B,9
+State true or false. i) An empty tree is also a binary tree. ii) In strictly binary tree the out-degree of every node is either o or 2.,True- False,False- True,True- True,False- False,C,7
+Which of the following data structures are indexed structures?,Linear Arrays,Linked Lists,Queue,Stack,A,6
+Which of the following data structure store the homogeneous data elements?,Arrays,Records,Pointers,Lists,B,10
+When new data are to be inserted into a data structure but there is not available space; this situation is usually called ___,Underflow,overflow,houseful,saturated,B,8
+A data structure where elements can be added or removed at either end but not in the middle is called ___,linked lists,stacks,queue,dequeue,D,6
+In Dijkstra's algorithm what data structure is commonly used to store the set of nodes?,Stack,Queue,Priority Queue,Linked List,C,10
+What is the time complexity of Dijkstra's algorithm with a binary heap implementation?,O(V^2),O(V + E log V),O(E log V),O(V log V),B,7
+Which algorithm is used to find the minimum spanning tree of a graph?,Dijkstra's algorithm,Kruskal's algorithm,Floyd-Warshall algorithm,Bellman-Ford algorithm,B,8
+What would be the appropriate approach involving steps outlined in a symbolic representation to locate a specific element (key) within a collection?,Pseudocode,Algorithm,Data Structure,Searching,B,6
+What method involves systematically reducing the workload by half at each comparison during the search process?,Binary Search,Algorithm,Data Search,Hash Search,A,7
+What Algorithm is specifically designed for searching a key in an array that has been ordered by numerical values assigned to the keys (key values)?,Binary Search,Bubble Search,Interpolation Search,Hash Search,C,8
+t is a process also known as sequential searching which involves checking every element in a list sequentially until the desired element is found. ,Binary Search,Linear Search,Interpolation Search,Hash Table Search,B,10
+Which data structure is specifically designed to implement an associative array?,Binary Search,Linear Search,Interpolation Search,Hash Table Search,D,9
+What term refers to an order group of homogeneous elements or items?,Psuedocode,Algorithm,Data Structure,Queue,C,8
+What term refers to the maximum number of items that might be on the queue?,Max Item,Algorithm,Item type,Queue,A,10
+Which of the following statements accurately describes the principles of FILO(First In  Last Out and LIFO (Last In  First Out) in the context of a stack?,FILO means that the first item added to the stack is the first one to be removed while LIFO means the last item added is the last one to be removed,FILO means that the last item added to the stack is the first one to be removed while LIFO means the first item added is the last one to be removed,FILO and LIFO are interchangeable terms both describing the same principle of stack operation,FILO and LIFO have no specific meaning in the context of stack,B,6
+Which of the following statements correctly describes the two constructors commonly used in implementing a stack?,The “Empty Constructor” initializes an empty stack while the “Push Constructor”  pushes an element on the top of an existing stack.,The “Default Constructor” sets the stack size to a predetermined value while the “Custom Constructor” dynamically adjusts the size based on runtime needs.,The “Push Constructor” is responsible for adding elements to the stack while “PopConstructor” is used for removing elements from the stack.,The “Copy Constructor” creates a duplicate stack while the “Resize constructor” adjusts the stack size during runtime,A,7
+It is a type of selector which gives back the stack without the top most element,Top,Push,Pop,isEmpty,C,10
+What are the two fundamental operations that define the behavior of a queue?,Push and Pop,Enqueue and Dequeue,Add and Remove,Insert and Delete,B,6
+Explain the concept of “Enqueue” in a queue. How does this operation affect the structure of the queue and why is it essential in queue-based algorithms?,Enqueue adds an element to the front of the queue ensuring constant complexity,Enqueue adds an element to the rear of the queue maintaining the FIFO order,Enqueue removes the oldest element from the queue ensuring efficient retrieval.,Enqueue swaps the positions of the first and last elements in the queue for better  performance.,B,10
+Which term is commonly used to describe the process of removing an element from a queue?,Extract,Dequeue,RemoveFront,PopFront,B,7
+Describe a real-world scenario were understanding the FIFO (First In First Out) principle of a queue is crucial. How does the FIFO property impact the outcome in this scenario?,Managing print jobs in a printer queue,Sorting elements in ascending order ,Retrieving items from the middle of the queue,Retrieving items from the middle of the queue,A,9
+What is the purpose of the “peek” operation in a stack?,To remove the top elemen,To add an element to the stack ,To view the top element without removing it,To check if the stack is empty,C,7
+What is Bubble Sort and how does it work in sorting a list of elements?,Bubble Sort is a complex sorting algorithm that uses a divide-and-conquer approach.,Bubble Sort is a simple sorting algorithm that repeatedly steps through the list  compares adjacent elements  and swaps them if they are in the wrong order.,Bubble Sort is an algorithm specifically designed for searching elements in a database.,Bubble Sort is a sorting technique that works only on numeric data.,B,8
+It is a comparison-based sorting algorithm that builds binary data structure and repeatedly extracts the minimum element,Bubble,Heap,Heap,Quick,B,10
+Operations on a data structure may be ___,creation,destruction,selection,all of the above,D,8
+The way in which the data item or items are logically related defines ____,storage structure,data structure,data relationship,data operation,B,9
+Which of the following are the operations applicable an primitive data structures?,create,destroy,update,all of the above,D,7
+The use of pointers to refer elements of a data structure in which elements are logically adjacent is ____,pointers,linked allocation,stack,queue,B,8
+Arrays are best data structure ___,for relatively permanent collections of data,for the size of the structure and the data in the structure are constantly changing,for both of above situation,for non of above situation,A,9
+Which of the following statement is false?,Arrays are dense lists and static data structure.,Data elements in linked list need not be stored in adjacent space in memory,Pointers store the next data element of a list.,Linked lists are collection of the nodes that contain information part and next pointer.,C,7
+Which of the following data structure is not linear data structure?,Arrays,Linked lists,Both of the above,None of the above,D,6
+Each node in a linked list has two pairs of  _______________ and ______________,Link field and information field,Link field and avail field,Avail field and information field,Address field and link field,A,8
+The logical or mathematical model of a particular organization of data is called a ______,Data structure,Data arrangement,Data configuration,Data formation,A,10
+The simplest type of data structure is _______,Multidimensional array,Linear array,Two dimensional array,Three dimensional array,B,9
+Linear arrays are also called ________,Straight line array,One-dimensional array,Vertical array,Horizontal array,B,8
+A  ________does not keep track of address of every element in the list.,Stack,String,Linear array,Queue,C,10
+When does top value of the stack changes?,Before deletion,While checking underflow,At the time of deletion,After deletion,D,6
+The disadvantage in using a circular linked list is _________,It is possible to get into infinite loop.,Last node points to first node.,Time consuming,Requires more memory space,A,7
+A linear list in which each node has pointers to point to the predecessor and successors nodes is called as __,Singly Linked List,Circular Linked List,Doubly Linked List,Linear Linked List,C,10
+A ____________ is a linear list in which insertions and deletions are made to from either end of the structure.,circular queue,random of queue,priority,dequeue,D,6
+In a priority queue insertion and deletion takes place at _______________,front rear end,only at rear end,only at front end,any position,D,10
+The time complexity of quick sort is ____________,O(n),O(n2),O(n log n),O(log n),C,7
+Which of the following is an application of stack?,finding factorial,tower of Hanoi,infix to postfix conversion,all of the above,D,9
+The data structure which is one ended is  _______,queue,stack,tree,graph,B,7
+A list which displays the relationship of adjacency between elements is said to be,linear,non linear,linked list,trees,A,8
+Program with highest run-time complexity is,Tower of Hanoi,Fibonacci Series,Prime Number Series,None of these,A,10
+The number of unused pointers in a complete binary tree of depth 5 is:,4,8,16,32,C,8
+Linear search is highly inefficient compared to binary search when dealing with,Small and unsorted arrays,Small and sorted arrays,Large and unsorted arrays,Large and sorted arrays,D,9
+The running time for creating a heap of size n is,O(n),O(log n),O(n log n),O(n2),C,7
+The extra key inserted at the end of the array is called a ______________,End Key,Stop Key,Sentinel,Transposition,C,8
+Which of the following operations is performed more efficiently by doubly linked list than by singly linked list?,Deleting a node whose location is given,Searching of an unsorted list for a given item,Inserting a new node after node whose location is given,Traversing the list to process each node,A,9
+Using square brackets ([]) to retrieve vector elements  ________perform bounds checking; using member function at to retrieve vector elements  _______perform bounds checking.,Does not  and does not,Does not and does,Does and does not,Does and does,B,7
+One can determine whether a Binary tree is a Binary Search Tree by traversing it in  _______,Pre-order,In-order,Post-order,Any of these,B,6
+The spanning tree of connected graph with 10 vertices contains  ________,9 edges,11 edges,10 edges,9 vertices,A,8
+What data structure is used for breadth first traversal of a graph,Queue,Stack,List,None of these,A,10
+It is a data structure that uses a function to map keys to indices  enabling constant-time average retrieval.,Bubble,Heap,Hash,Quick,C,9
+What is a collision in the context of Hash Tables?,A collision occurs when two keys hash to the same index.,A collision occurs when a key cannot be hashed to any index.,A collision occurs when two keys hash to the same index.,A collision occurs when a key is missing in the hash table.,C,8
+In a stack  where does the deletion (pop) of an element occur?,Front,End,Middle,Top,D,10
+How are collisions typically resolved?,Collisions are resolved by ignoring one of the conflicting keys,Collisions are resolved by rehashing the key with a new function.,Collisions are resolved by using techniques like chaining or open addressing.,Collisions are resolved by adding the missing key.,C,6
+What is stack in data structure?,An ordered collection of elements,A First-in and first-out (FIFO) data structure,A last-in and first out (LIFO) data structure,A sorted collection of elements,C,7
+What is a queue in data structure?,Last In First Out (LIFO) structure,First In First Out (FIFO) structure,Random access structure,Stack structure,B,10
+Which of the following is the correct order of operations in a stack,Push Pop and Peek,Peek Push and Pop,Pop Peek and Push,Push  Peek and pop,A,6
+Which of the following data structure uses a stack for its implementation?,Queue,Linked List,Tree,Recursion,D,10
+In a queue  where do new elements get added?,Front,Middle,End,Random position,C,7
+What is the term used for the process of adding an element to the rear of the queue,Push,Enqueue,Insert,Append,B,9
+If you have a stack with a maximum size of 5 and you attempt to push an element onto a full stack? what will happen?,The element will be added to the stack.,The stack will remain unchanged.,An error will occur  indicating stack overflow.,The top element will be automatically removed.,C,7
+If the input array for binary search is not sorted  what is the expected behavior of the algorithm?,It will work correctly without issues.,It will enter an infinite loop,It will return incorrect results,It will raise an exception error.,C,8
+In hashing  what is the purpose of the hash function?,To resize the hash table,To determine the load factor.,To calculate the average search time,To map keys to indices in the hash table.,D,10
+If you have a queue with a maximum size of 5 and you attempt to enqueue an element onto a full queue  what will happen?,An error will occur  indicating queue overflow.,The element will be added to the queue.,The queue will remain unchanged,The front element will be automatically removed.,A,8
+In the binary search algorithm and what is the purpose of the mid variable?,It represents the length of the array.,It is the target element to be found.,It is the middle index of the current search range.,It is the sum of the left and right indices.,C,9
+Which of the following statements is TRUE in the context of function calls?,Stack helps ensure functions are called in alphabetical order.,Stack keeps track of the order of function calls and their local variables.,Stack prevents the execution of recursive functions.,Stack enforces a first-in  las-out order for function calls.,B,7
+Which of the following statements is TRUE if you pop an element from an empty stack?,An error is thrown,The program crashes,Nothing happens,The top element is set to null,A,8
+Which is TRUE in the purpose of a priority queue?,Sort elements in ascending order,Organize elements in random order,Assign priorities to elements and process them accordingly,To reverse the order of elements.,C,9
+Consider the following array: [4 1 7 3 9 2]. Apply the bubble sort algorithm to sort the array. What is the array after the second pass?,[1 4 3 7 2 9],[1 2 3 4 7 9],[4 1 7 3 9 2],[4 1 3 7 2 9],B,7
+"Consider the following array: [4 1 7 3 9 2]. Apply the bubble sort algorithm to sort the array. What is the array after the first pass?",[1 4 3 7 2 9],[1 2 3 4 7 9],[4 1 7 3 9 2],[4 1 3 7 2 9],A,6
+"Consider the following array: [4 1 7 3 9 2]. Apply the bubble sort algorithm to sort the array. What is the array after the third pass?",[1 4 3 7 2 9],[1 2 3 4 7 9],[4 1 7 3 9 2],[4 1 3 7 2 9],C,8
+"Consider the following array: [4 1 7 3 9 2]. Apply the bubble sort algorithm to sort the array. What is the array after the fourth pass?",[1 4 3 7 2 9],[1 2 3 4 7 9],[4 1 7 3 9 2],[4 1 3 7 2 9],B,10
+"Consider the following array: [4 1 7 3 9 2]. Apply the bubble sort algorithm to sort the array. What would be the sorted array?",[1 4 3 7 2 9],[1 2 3 4 7 9],[4 1 7 3 9 2],[4 1 3 7 2 9],B,9
+"Consider the following array [2 12 5 16 18 30 21 25]. You want to perform a binary search to find the element ""16"". After the binary search  what is the status of the array?",[2 12 5 16 18 30 21 25].,[30 25 21 18 16 12 5 2].,[2 5 12 16 18 21 25 30],[2 5 12 18 21 25 30],C,8
+If a binary search is applied to a sorted array of length 16  what is the maximum number of comparisons needed to find an element?,4,8,16,32,B,10
+Suppose you have a queue with the elements [3 5 7 9]. If you enqueue the element 11 and then dequeue two elements  what will be the resulting queue?,[7 9 11],[9 11],[11],[3 5 7 9],A,6
+Consider a queue with the following elements:[2 4 6 8 10]. If you enqueue the elements 12 and dequeue an element  what will be the resulting queue?,[4 6 8 10 12],[2 4 6 8 10 12],[6 8 10 12],[2 4 6 8 10],C,7
+Suppose you have an array with the following elements:[2 4 6 8 10]. If you perform a binary search for the element 7  what will be the result?,Element found at index 2,Element not found,Element found at index 3,Element found at index 4,B,10
+"Suppose you have a sorted array [1 3 5 7 9 11 13 15] and you want to find the index of the element7 using binary search. After each iteration of the binary search  which subarray would be considered next?",[1 3 5 7],[7 9 11 13 15],[5 7 9 11 12 15],[1 3 5 7 9 11 13 15],B,6
+Consider a stack with the elements [2 4 6 8 10]. If you push the element 12 onto the stack and then pop an element  what will be the resulting stack?,[2 4 6 8 10],[2 4 6 8 10 12],[2 4 6 8 12],[2 4 6 12],C,10
+Suppose you have a stack with the elements [3 5 7 9]. If you push element 11 onto the stack and then pop two elements  what will be the resulting stack?,[7 9 11],[9 11],[11],[3 5 7 91],B,7
+Consider an array with the following elements: [12 4 8 6 10]. If you perform a linear search for the element 6  what will be the result?,Element found at index 3,Element not found,Element found at index 4,Element found at index 2,C,9
+If a linear search is applied to an array of length 10  and the element to be searched is at the last index  what is the maximum number of comparisons needed to find the element?,1,5,10,9,C,7
+Suppose you have an array with the following elements: [8 3 1 7 4]. After two passes of the Bubble Sort algorithm  what will be the new order of the array?,[1 3 4 7 8],[3 1 7 4 8],[8 3 1 7 4],[4 7 1 3 8],A,8
+Consider an array [1 3 5 7 9] and the target element is 5. How many iterations will the binary search algorithm take to find the target?,1,2,3,4,B,10
+Consider an initially empty stack. If the sequence of operations is: Push(3)  Push(5)  Pop0  Push(2)  Pop  what is the final state of the stack?,[3 5],[5 2],[2],[5 3 2],C,8
+Suppose you have a queue with the elements [1 2 3 4]. If you perform two consecutive Dequeue operations  what will be the resulting queue?,[3 5],[2 3],[1 2],[4],C,9
+Consider a stack with the elements [7 9 2 4]. If you push element 5 onto the stack  what will be the top element?,2,9,4,7,C,7
+Consider an initially empty queue. If the sequence of operations is: Enqueue(3)  Enqueue(5)  Dequeue)  Enqueue(2)  Dequeue)  what is the final state of the queue?,[3 5],[5 2],[2],[3 2],C,8
+Consider a queue with the elements [7 9 2 4]. If you enqueue the element 5  what will be the front element?,2,5,4,7,A,9
+Consider a queue with the elements [2 4 6 8.10]. If you perform linear search for the element 7  what will be the result?,Element found at index 2,Element not found,Element found at index 3,Element found at index 4,B,7
+Consider a queue with the elements [3 7 2 8.5]. If you perform linear search for the element 8  what will be the result?,Element found at index 2,Element not found,Element found at index 3,Element found at index 4,C,6
+Consider a queue with the elements [12 4 6 8.10]. If you perform linear search for the element 6  what will be the result?,Element found at index 2,Element not found,Element found at index 3,Element found at index 4,A,8
+Consider the following array: [2 1 7 10 9 4 8 6]. Apply the bubble sort algorithm to sort the array.What is the array after the first pass?,[1 2 7 4 8 6 9 10],[1 2 7 9 4 8 6 10], [1 2 4 7 6 8 9 10],[1 2 4 6 7 8 9 10],B,10
+Consider the following array:[2 1 7 10 9 4 8 6]. Apply the bubble sort algorithm to sort the array. What is the array after the second pass?,[1 2 7 4 8 6 9 10],[1 2 7 9 4 8 6 10], [1 2 4 7 6 8 9 10],[1 2 4 6 7 8 9 10],A,9
+Consider the following array:[2 1 7 10 9 4 8 6]. Apply the bubble sort algorithm to sort the array.What is the array after the third pass?,[1 2 7 4 8 6 9 10],[1 2 7 9 4 8 6 10], [1 2 4 7 6 8 9 10],[1 2 4 6 7 8 9 10],C,8
+Consider the following array: [2 1 7 10 9 4 8 6]. Apply the bubble sort algorithm to sort the array.What is the array after the fourth pass?,[1 2 7 4 8 6 9 10],[1 2 7 9 4 8 6 10], [1 2 4 7 6 8 9 10],[1 2 4 6 7 8 9 10],D,10
+Consider the following array: [2 1 7 10 9 4 8 6]. Apply the bubble sort algorithm to sort the array.What would be the sorted array?,[1 2 7 4 8 6 9 10],[1 2 7 9 4 8 6 10], [1 2 4 7 6 8 9 10],[1 2 4 6 7 8 9 10],D,6
+Two main measures for the efficiency of an algorithm are,Processor and memory,Complexity and capacity,Time and space,Data and space,C,7
+The time factor when determining the efficiency of algorithm is measured by,Counting microseconds,Counting the number of key operations,Counting the number of statements,Counting the kilobytes of algorithm,B,10
+The space factor when determining the efficiency of algorithm is measured by,Counting the maximum memory needed by the algorithm,Counting the minimum memory needed by the algorithm,Counting the average memory needed by the algorithm,Counting the maximum disk space needed by the algorithm,A,6
+Which of the following case does not exist in complexity theory,Best case,Worst case,Average case,Null case,D,10
+The Worst case occur in linear search algorithm when,The Worst case occur in linear search algorithm when,Item is not in the array at all, Item is the last element in the array,Item is the last element in the array or is not there at all,D,7
+The Average case occur in linear search algorithm,When Item is somewhere in the middle of the array,When Item is not in the array at all,When Item is the last element in the array,When Item is the last element in the array or is not there at all,A,9
+The complexity of the average case of an algorithm is,Much more complicated to analyze than that of worst case,Much more simpler to analyze than that of worst case,Sometimes more complicated and some other times simpler than that of worst case,None or above,A,7
+The complexity of linear search algorithm is,O(n),O(log n),O(n2),O(n log n),A,8
+The complexity of Binary search algorithm is,O(n),O(log n),O(n2),O(n log n),B,10
+The complexity of Bubble sort algorithm is,O(n),O(log n),O(n2),O(n log n),C,8
+The complexity of merge sort algorithm is,O(n),O(log n),O(n2),O(n log n),D,9
+The indirect change of the values of a variable in one module by another module is called,internal change,inter-module change,side effect,side-module update,C,7
+Which of the following data structure is not linear data structure?,Arrays,Linked lists,Both of above,None of above,D,8
+Which of the following data structure is linear data structure?,Trees,Graphs,Arrays,None of above,C,9
+The operation of processing each element in the list is known as,Sorting,Merging,Inserting,Traversal,D,7
+Finding the location of the element with a given value is:,Traversal,Search,Sort,None of above,B,6
+Arrays are best data structures,for relatively permanent collections of data,for the size of the structure and the data in the structure are constantly changing,for both of above situation,for none of above situation,A,8
+Linked lists are best suited,for relatively permanent collections of data,for the size of the structure and the data in the structure are constantly changing,for both of above situation,or none of above situation,B,10
+Each array declaration need not give implicitly or explicitly the information about,the name of array,the data type of array,the first data from the set to be stored,the index set of the array,C,9
+The elements of an array are stored successively in memory cells because,by this way computer can keep track only the address of the first element and the addresses of other elements can be calculated,the architecture of computer memory does not allow arrays to store other than serially,both of above,None of above,A,8
+The memory address of the first element of an array is called,floor address,foundation address,first address,base address,D,10
+The memory address of fifth element of an array can be calculated by the formula,LOC(Array[5]=Base(Array)+w(5-lower bound) where w is the number of words per memory cell for the array,LOC(Array[5])=Base(Array[5])+(5-lower bound) where w is the number of words per memory cellfor the array,LOC(Array[5])=Base(Array[4])+(5-Upper bound) where w is the number of words per memory cellfor the array,None of above,A,6
+Which of the following data structures are indexed structures?,linear arrays,linked lists,both of above,None of above,A,7
+Which of the following is not the required condition for binary search algorithm?,The list must be sorted,there should be the direct access to the middle element in any sublist,There must be mechanism to delete and/or insert elements in list,None of above,C,10
+Which of the following is not a limitation of binary search algorithm?,must use a sorted array,requirement of sorted array is expensive when a lot of insertion and deletions are needed,there must be a mechanism to access middle element directly,binary search algorithm is not efficient when the data elements are more than 1000,D,6
+Two dimensional arrays are also called,tables arrays,matrix arrays,both of above,None of above,B,10
+A variable P is called pointer if,P contains the address of an element in DATA,P points to the address of first element in DATA,P can store only memory addresses,P contain the DATA and the address of DATA,A,7
+Which of the following data structure can't store the non-homogeneous data elements?,Arrays,Records,Pointers,None,A,9
+Which of the following data structure store the homogeneous data elements?,Arrays,Records,Pointers,None,A,7
+Each data item in a record may be a group item composed of sub-items: those items which areindecomposable are called,elementary items,atoms,scalars,all of above,D,8
+The difference between linear array and a record is,An array is suitable for homogeneous data but hte data items in a record may have different data type,In a record there may not be a natural ordering in opposed to linear array,A record form a hierarchical structure but a lienear array does not,all of above,D,10
+Which of the following statement is false?,Arrays are dense lists and static data structure,data elements in linked list need not be stored in adjecent space in memory,pointers store the next data element of a list,linked lists are collection of the nodes that contain information part and next pointers,C,8
+Binary search algorithm can not be applied to,sorted linked list,sorted binary trees,sorted linear array,pointer array,A,9
+When new data are to be inserted into a data structure but there is no available space: thissituation is usually called,underflow,overflow,housefull,saturated,B,7
+The situation when in a linked list START=NULL is,underflow,overflow,housefull,saturated,A,8
+Which of the following is two way list?,grounded header list,circular header list,linked list with header and trailer nodes,none of above,C,9
+Which of the following name does not relate to stacks?,FIFO lists,LIFO list,Piles,Push-down lists,A,7
+"The term ""push"" and ""pop"" is related to the",array,lists,stacks,all of above,C,6
+A data structure where elements can be added or removed at either end but not in the middle,Linked lists,Stacks,Queues,Deque,D,8
+"""When inorder traversing a tree resulted E A C K F H D B G; the preorder traversal would return (C- Technical)""",FAEKCDBHG,FAEKCDHGB,EAFKHDCBG,FAEKCDHGB,B,10
+If the data collection is in sorted form and equally distributed then the run time complexity of interpolation search is  ________,?(n),?(1),?(log n),?(log (log n)),D,9
+A technique for direct search is  ________,Binary Search,Linear Search,Tree Search,Hashing,D,8
+If a node having two children is deleted from a binary tree it is replaced by its _________,In-order predecessor,In-order successor,Pre-order predecessor,None of these,B,10
+In a min heap:,minimum values are stored.,child nodes have less value than parent nodes.,parent nodes have less value than child nodes,maximum value is contained by the root node.,C,6
+The searching technique that takes O(1) time to find a data is,Linear Search,Binary Search,Hashing,Tree Search,C,7
+A mathematical-model with a collection of operations defined on that model is called:,Data Structure,Abstract Data Type,Primitive Data Type,Algorithm,B,10
+The number of interchanges required to sort 5-1-6- 2- 4 in ascending order using Bubble Sort is,6,5,7,8,B,6
+The postfix form of the expression (A+ B)* (C*D? E)*F / G is:,AB+ CD*E ? FG /**,AB + CD* E ? F **G /,AB + CD* E ? *F *G /,AB + CDE * ? * F *G /,A,10
+The complexity of multiplying two matrices of order m*n and n*p is  ________,mnp,mp,mn,np,A,7
+Merging 4 sorted files containing 50-10-25 and 15 records will take  ________time,O(100),O(200),O(175),O(125),A,9
+For an undirected graph with n vertices and e edges the sum of the degree of each vertex is equal to:,2n,(2n-1)/2,2e,e2/2,C,7
+Project scheduling is an example of  _______,Greedy programming,Dynamic programming,Divide and conquer,None of the above,B,8
+Minimum number of queues required for priority queue implementation?,5,4,3,2,D,10
+In worst case Quick Sort has order  ________,O(n log n),O(n2/2),O(log n),O(n2/4),B,8
+To partition unsorted list a pivot element is used in  ________,Merge Sort,Quick Sort,Insertion Sort,Selection Sort,B,9
+What is the worst case time complexity of linear search algorithm?,?(1),?(n),?(log n),?(n2),D,7
+A full binary tree with 2n+1 nodes contain  _______,n leaf nodes,n non-leaf nodes,n-1 leaf nodes,n-1 non-leaf nodes,B,8
+If a node in a BST has two children then its inorder predecessor has  ________.,no left child,no right child,two children,no child,B,9
+The worst case complexity of binary search matches with  ______,interpolation search,linear search,merge sort,none of the above,B,7
+A linear list of elements in which deletion can be done from one end (front) and insertion can take place only at the other end (rear) is known as a  ________,Queue,Stack,Tree,Linked list,A,6
+The ? notation in asymptotic evaluation represents __________,Base case,Average case,Worst case,NULL case,B,8
+A sort which relatively passes through a list to exchange the first element with any element less than it and then repeats with a new first element is called  ________,Insertion sort,Selection sort,Heap sort,Quick sort,D,10
+Which of the following sorting algorithms does not have a worst case running time of O(n2) ?,Insertion sort,Merge sort,Quick sort ,Bubble sort,B,9
+An undirected graph G with n vertices and e edges is represented by adjacency list. What is the time required to generate all the connected components?,O(n),O(e),O(e+n),O(e2),C,8
+A stable sorting algorithm:,does not crash.,does not run out of memory,does not change the sequence of appearance of elements,does not exists.,C,10
+Consider a linked list of n elements. What is the time taken to insert an element after an element pointed by some pointer?,O(1),O(log2 n),O(n),O(n log2 n),A,6
+How many pointers are contained as data members in the nodes of a circular. doubly linked list of integers with five nodes?,5,8,10,15,C,7
+The smallest element of an array’s index is called its,lower bound,upper bound,range,extraction,A,10
+What is the worst case run-time complexity of binary search algorithm?,?(n2),?(nlog n),?(n3),?(n),D,6
+A queue data-structure can be used for  ________,expression parsing,recursion,resource allocation,all of these,C,10
+The maximum degree of any vertex in a simple graph with n vertices is:,n–1,n+1,2n–1,n,A,7
+The data structure required for Breadth First Traversal on a graph is  ________,Queue,Stack,Array,Tree,A,9
+The number of different directed trees with 3 nodes are:,2,3,4,5,B,7
+One can convert a binary tree into its mirror image by traversing it in,in-order,pre-order,post-order,any order,C,8
+In a linked list with n nodes. the time taken to insert an element after an element pointed by some pointer is  ________,O(1),O(log n),O(n),O(n 1og n),A,10
+The data structure required to evaluate a postfix expression is ________,Queue,Stack,Array,linked-list,B,8
+The data structure required to check whether an expression contains balanced parenthesis is  ________,Stack,Queue,Tree,Array,A,9
+The complexity of searching an element from a set of n elements using Binary search algorithm is  ________,O(n),O(log n),O(n2),O(n log n),B,7
+Which of the sorting techniques has highest best-case runtime complexity?,Quick sort,Selection sort,Insertion sort,Bubble sort,B,8
+The number of leaf nodes in a complete binary tree of depth d is ________,2d,2d–1+1,2d+1+1,2d+1,A,9
+A circular linked list can be used for  ________,Stack,Queue,Both Stack & Queue,Neither Stack or Queue,C,7
+What data structure would you mostly likely see in a non-recursive implementation of a recursive algorithm?,Stack,Linked list,Queue,Trees,A,6
+Which of the following sorting methods would be most suitable for sorting a list which is almost sorted?,Bubble Sort,Insertion Sort,Selection Sort,Quick Sort,A,10
+A B-tree of minimum degree t can maximum ________pointers in a node.,t–1,2t–1,2t,t,D,9
+The process of accessing data stored in a serial access memory is similar to manipulating data on a  ________,heap,queue,stack,binary tree,C,8
+Stack is used for  ________,CPU Resource Allocation,Breadth First Traversal,Recursion,None of the above,C,10
+Re-balancing of AVL tree costs  ________,?(1),?(log n),?(n),?(n2),B,6
+A BST is traversed in the following order recursively: Right root left The output sequence will be in,Ascending order,Descending order,Bitomic sequence,No specific order,B,7
+Quick sort running time depends on the selection of  ________,size of array,pivot element,sequence of values,none of the above,B,10
+The pre-order and post order traversal of a Binary Tree generates the same output. The tree can have maximum  ________,Three nodes,Two nodes,One node,Any number of nodes,C,6
+The postfix form of A*B+C/D is”,*AB/CD+,AB*CD/+,A*BC+/D,ABCD+/*,B,10
+A linear collection of data elements where the linear node is given by means of pointer is called  ________,Linked list,Node list,Primitive list,None of these.,A,7
+Representation of data structure in memory is known as:,recursive,abstract data type,storage structure,file structure,B,9
+What data structure can be used to check if syntax has balanced parenthesis?,Queue,Tree,List,Stack,D,7
+How many binary trees with 3 nodes which when traversed in post order gives the sequence A.B.C is ?,3,4,5,6,C,8
+An adjacency matrix representation of a graph cannot contain information of :,nodes,edges,direction of edges,parallel edges,D,10
+Which data structure represents a waiting line and limits insertions to be made at the back of the data structure and limits removals to be made from the front?,Stack,Queue,Binary tree,Linked list,B,8
+Quick sort is also known as  ________,Merge sort,Heap sort,Bubble sort,None of these,D,9
+An ADT is defined to be a mathematical model of a user-defined type along with the collection of all  ________operations on that model.,Cardinality,Assignment,Primitive,Structured,C,7
+The goal of hashing is to produce a search that takes  ________,O(1) time,O(n2) time,O(log n) time,O(n log n) time,A,8
+The best average behaviour is shown by,Quick Sort,Merge Sort,Insertion Sort,Heap Sort,A,9
+Time complexities of three algorithms are given. Which should execute the slowest for large values of N?,O(N1/2),O(N),O(log N),None of these,B,7
+What data structure is used for depth first traversal of a graph?,Queue,Stack,List,None of these,B,6
+A queue is a,FIFO (First In First Out) list,LIFO (Last In First Out) list,Ordered array,Linear tree,A,10
+Which data structure is needed to convert infix notation to postfix notation?,Branch,Queue,Tree,Stack,D,9
+In general. linked lists allow,Insertions and removals anywhere,Insertions and removals only at one end,Insertions at the back and removals from the front,None of the above,A,8
+Which of the following has search efficiency of ?(1)?,Tree,Heap,Hash Table,Linked-List,C,10
+The extra key inserted at the end of the array is called a  ________,End key,Stop key,Sentinel,Transposition,C,6
+The prefix form of A-B/ (C * D ^ E) is,-/*^ACBDE,-ABCD*^DE,-A/B*C^DE,-A/BC*^DE,C,7
+Maximum number of nodes in a binary tree with height k. root is at height 0 is:,2k ? 1,2k+1 ? 1,2k-1 + 1,2k + 1,B,10
+Consider that n elements are to be sorted. What is the worst case time complexity of Bubble sort?,O(1),O(log2n),O(n),O(n2),D,6
+A characteristic of the data that binary search uses but the linear search ignores is the  ________,Order of the elements of the list,Length of the list,Maximum value in list,Type of elements of the list,D,10
+In Breadth First Search of Graph.which of the following data structure is used?,Stack,Queue,Linked List,None of the above,B,7
+The largest element of an array index is called its  ________,lower bound,range,upper bound,All of these,C,9
+What is the result of the following operation: Top (Push (S  X)),X,null,S,None of these.,A,7
+How many nodes in a tree have no ancestors?,0,1,2,n,B,8
+In order traversal of binary search tree will produce  _______,unsorted list,reverse of input,sorted list,none of the above,C,10
+In binary heap. whenever the root is removed then the rightmost element of last level is replaced by the root. Why?,It is the easiest possible way.,To make sure that it is still complete binary tree.,Because left and right subtree might be missing.,None of these,B,8
+In order to get the contents of a Binary search tree in ascending order. one has to traverse it in  ________,pre-order,in-order,post order,not possible,B,9
+Which of the following sorting algorithm is stable?,Insertion sort,Bubble sort,Quick sort,Heap sort,D,7
+Which data structure is used for implementing recursion?,Queue,Stack,Arrays,List,B,8
+In binary search. average number of comparison required for searching an element in a list if n numbers is:,log2 n,n / 2,n,n – 1,A,9
